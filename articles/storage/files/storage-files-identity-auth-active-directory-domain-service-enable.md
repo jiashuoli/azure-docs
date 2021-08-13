@@ -134,14 +134,14 @@ To create a new storage account, call [az storage account create](/cli/azure/sto
 
 ```azurecli-interactive
 # Create a new storage account
-az storage account create -n <storage-account-name> -g <resource-group-name> --enable-files-aadds $true
+az storage account create -n <storage-account-name> -g <resource-group-name> --enable-files-aadds
 ```
 
 To enable this feature on existing storage accounts, use the following command:
 
 ```azurecli-interactive
 # Update a new storage account
-az storage account update -n <storage-account-name> -g <resource-group-name> --enable-files-aadds $true
+az storage account update -n <storage-account-name> -g <resource-group-name> --enable-files-aadds
 ```
 ---
 
